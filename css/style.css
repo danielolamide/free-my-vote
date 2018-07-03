@@ -1,0 +1,743 @@
+body,html{
+	height: 100%;
+	margin:0;
+}
+#navigation{
+	height: 100%;
+	margin:0;
+	padding:0;
+}
+#topnav{
+	height: 8%;
+	background-color: rgb(16, 59, 74);
+}
+#logo{	
+	padding-left: 10px;
+	padding-top: 5px;
+	display: inline-block;
+	float: left;
+}
+#logo span{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: bold;;
+	color: white;
+}
+#sign-up-div{
+	padding-top: 5px;
+	padding-left: 1200px;
+}
+#sign-up-btn{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 14px;
+	color: rgb(16, 59, 74);
+	background-color: white;
+	padding:12px 16px;
+	border-style: none;
+	border-radius: 20px;
+
+}
+#sign-up-btn:hover{
+	border-color: #87CEEB;
+	border-radius: 23px;
+	border-width: 3px;
+	cursor: pointer;
+}
+#main{
+	height:92%;
+	background: linear-gradient(rgba(54, 198, 252,	0.82),rgba(31, 113, 144,0.9)),url("../images/voting.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+}
+#login-div{
+	display: flex;
+	background-color: white;
+	margin-top:6em;
+	margin-left: 850px;
+	margin-bottom: 5em;
+	padding-top: 10px;
+	text-align: center;
+	width: 400px;
+	border-radius:20px;
+}
+#form-Header span{
+	font-family: 'Montserrat',sans-serif;
+	font-family: 18px;
+	font-weight: bold;
+}
+.bar{
+	margin-left: 38px;
+	background:black;
+	content: '';
+	width: 280px;
+	height: 3px;
+	position:relative;
+}
+.inputField{
+	display: block;
+	border: none;
+	color: black;
+	border-radius: none;
+	background-color: white;
+	font-size: 18px;
+	transition: 0.3s ease;
+	height: 30px;
+}
+.inputField:focus{
+	outline: none;
+}
+#iconID{
+	position: absolute;
+	top: 280px;
+}
+#iconName{
+	position: absolute;
+	top: 325px; 
+}
+#iconName1{
+	position: absolute;
+	top: 370px;
+}
+#emailIcon{
+	position: absolute;
+	top: 415px;
+}
+#iconPassword{
+	position: absolute;
+	top: 460px;
+}
+form{
+	margin: 0 30px;
+}
+#btn-login{
+	background-color: rgb(16, 59, 74);
+	color: white;
+	font-family: 'Montserrat',sans-serif;
+	padding: 10px 56px;
+	border-radius: 20px;
+	border-style:none;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+#btn-login:hover{
+	cursor: pointer;
+}
+#about-div{
+	margin-left: -1150px;
+	padding-top:230px;
+	
+}
+/*#about-div div{
+	border-style:solid;
+	padding:5px 10px;
+	border-color:white;
+	border-width:2px;
+	border-radius: 20px;
+}*/
+#about-div div span{
+	font-family: 'Inconsolata', monospace;
+	font-size: 38px;
+	color: white;
+}
+#about-div  div p{
+	font-family: 'Inconsolata',monospace;
+	font-size: 20px;
+	color: white
+}
+
+/*Voting dashboard*/
+#wrapper{
+	height: 100%;
+	transition: margin-left .5s;
+}
+#top-panel-dashboard{
+	height: 8%;
+
+}
+#top-banner{
+	height: 98%;
+	background-color: #2A3542;
+
+}
+.banner-bar{
+	height: 2%;
+	background-color:white;
+	width: 100%
+}
+#banner-content{
+	display: inline;
+	float: left;
+}
+#logo-image{
+	margin-top: -43px;
+	padding-left: 45px;
+}
+#logo-text{
+	margin-top: -20px;
+	padding-left: 79px;
+}
+#logo-text a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: bold;;
+	color: white;
+	text-decoration: none;
+}
+#sm-wrapper{
+	margin-top: 10px;
+}
+#side-menu-btn{
+	padding:8px 10px;
+	font-size: 30px;
+}
+#side-menu-btn:hover{
+	cursor: pointer;
+
+	
+}
+.side-nav{
+	height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2A3542;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+#closebtn-div a{
+	text-decoration: none;
+	padding:0px 8px 8px 32px;
+	font-size: 45px;
+	color: #e5e5e5;
+	display: block;
+	font-family: 'Lato', sans-serif; 	 	
+	transition: .3s;
+	margin-bottom: 20px;
+
+}
+#sm-wrapper a{
+	text-decoration: none;
+	padding:16px 8px 8px 32px;
+	font-size: 18px;
+	color: #e5e5e5;
+	display: block;
+	font-family: 'Lato', sans-serif;
+	transition: .3s;
+	margin-bottom: 20px;
+
+}
+#sm-wrapper a:hover{
+	background-color: #ffffff;
+	color: #333;
+}
+.side-nav .closebtn{
+	position: absolute;
+    top:0;
+    right: 10px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.dropbtn{
+	background-color:#2A3542;
+	color: white;
+	font-size: 14px;
+	font-family: "Montserrat",sans-serif;
+	border:none;
+	padding:10px 10px;
+	cursor: pointer;
+}
+.dropbtn:hover .dropbtn:focus{
+	background-color: #949aa0;
+
+
+}
+.drop-down{
+    position: relative;
+    display: inline-block;
+
+}
+.drop-down:hover{
+	outline: #ffffff 0.5px solid;
+}
+.drop-content{
+	display: none;
+    position: absolute;
+    background-color: #2A3542;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.drop-content a {
+    color:white;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 16px;
+    display: block;
+}
+.drop-content a:hover {background-color: white; color:#2A3542; }
+.show{display: block;}
+
+#user-icon{
+	margin-left: 1150px;
+	margin-top: -38px;
+}
+@media screen and (max-height: 450px) {
+  .side-nav {padding-top: 15px;}
+  .side-nav a {font-size: 18px;}
+}
+.pg-content{
+	height: 90%;
+	background-color: #FAFAFA;
+	
+}
+#dash-header{
+	height: 10%;
+	background: linear-gradient(to right, #41CAC0,#00A8B3);
+	margin-top:10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	border-radius: 10px;
+	align-self: center;
+}
+#dash-header span{
+	font-family: "Lato",sans-serif;
+	font-size: 25px;
+	line-height: 30px;
+	color: white;
+}
+#pending-elections{
+	background-color: white;
+	margin: 10px;
+	border: 0 solid #e7e7e7;
+	border-radius: 10px;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.15);
+    padding:20px;
+	margin-left: 20px;
+	width: 40%;
+	/*margin-top: 15px;*/
+}
+
+#election-icon{
+	height: 30px;
+	width: 30px;
+}
+#election-icon img{
+	height: 100%;
+	width: 100%;
+}
+#pending-elections-text{
+	margin-left: 35px;
+	margin-top:-2px;
+	align-content: center;
+}
+#pending-elections-text span{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+#if-pending-elections-no{
+	align-content: center;
+	margin-top: 20px;	
+}
+#if-pending-elections-no span{
+	font-family: 'Lato',sans-serif;
+	font-size: 20px;
+	color: #C0C0C0;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15); 
+}
+#voter-card{
+	background-color: white;
+	margin-top: -145px;
+	border: 0 solid #e7e7e7;
+	border-radius: 10px;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.15);
+    padding:20px;
+	margin-left: 620px;
+	width: 50%;
+	padding-bottom: 20px;
+}
+#card-header-img{
+	height: 45px;
+	width: 45px;
+	margin-top: -10px;
+}
+#card-header-img img{
+	height: 100%;
+	width: 100%;
+}
+#card-header-txt{
+	margin-left: 50px;
+	margin-top:-30px;
+}
+#card-header-txt span{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+#id-icon{
+	height: 150px;
+	width: 150px;
+	margin-top: 30px;
+}
+#id-icon img{
+	height: 100%;
+	width: 100%;
+}
+#user-details{
+	margin-left: 135px;
+	margin-top: -140px;
+}
+#user-details ul{
+	list-style: none;
+	font-family: "Lato",sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+#edit-settings-btn{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	background-color: #2A3542;
+	color: white;
+	border-style: none;
+	padding:5px 8px;
+	border-radius:10px;
+
+}
+#edit-settings-btn:hover{
+	cursor: pointer;
+    text-shadow: 2px 2px #333;
+}
+#cast-a-vote-card{
+	/*background-color: white;*/
+	margin: -180px;
+	border: 0 solid #e7e7e7;
+	border-radius: 10px;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.15);
+    padding:20px;
+	margin-left: 20px;
+	width: 40%;
+	background: linear-gradient(rgba(54, 198, 252,	0.82),rgba(31, 113, 144,0.9)),url("../images/cast-a-vote.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 360px;
+}
+#cast-details{
+	align-content: center;
+	margin-left: 129.5px;
+	margin-top: 150px;
+}
+#cast-details span{
+	font-family: 'Oswald',sans-serif;
+	font-size: 38px;
+	line-height: 20px;
+	color: white;
+}
+#vote-now-btn a{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+	border-style:solid;
+	border-radius: 5px;
+	padding:5px 10px;
+}
+#vote-now-btn a:hover{
+	cursor: pointer;
+	border-color: #2A3542;
+
+}
+#vote-now-btn{
+	margin-left: 212px;
+	margin-top: 50px;
+}
+#faq-card{
+	background-color: white;
+	margin-top: -80px;
+	border: 0 solid #e7e7e7;
+	border-radius: 10px;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.15);
+    padding:20px;
+	margin-left: 620px;
+	width: 25%;
+	background: linear-gradient(rgba(54, 198, 252,	0.82),rgba(31, 113, 144,0.9)),url("../images/faq.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+	height: 140px;
+}
+#faq-detail a{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+	border-style: solid;
+	border-radius: 5px;
+	padding:5px 10px;
+}
+#faq-detail{
+	margin-left: 250px;
+	margin-top: 70px;
+}
+#faq-detail a:hover{
+	cursor: pointer;
+	border-color: #2A3542;
+}
+#settings-card{
+	background-color: white;
+	margin-top: -180px;
+	border: 0 solid #e7e7e7;
+	border-radius: 10px;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.15);
+    padding:20px;
+	margin-left: 1000px;
+	width: 23%;
+	background: linear-gradient(rgba(54, 198, 252,	0.82),rgba(31, 113, 144,0.9)),url("../images/settings.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 140px;
+}
+#setting-detail a{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+	border-style: solid;
+	border-radius: 5px;
+	padding:5px 10px;
+}
+#setting-detail a:hover{
+	cursor: pointer;
+	border-color: #2A3542;
+}
+#setting-detail{
+	margin-left: 115px;
+	margin-top: 70px;
+}
+#vote-pg{
+	height: 92%;
+	background: #00B4DB;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+#vote-form{
+	margin: 0 auto;
+  	font-family: 'Raleway', sans-serif;
+  	padding: 40px;
+  	width: 70%;
+  	min-width: 300px;
+  	align-content: center;
+}
+select{
+	padding: 10px;
+  	width: 100%;
+  	font-size: 17px;
+  	font-family: Raleway;
+  	border: 1px solid #aaaaaa;
+}
+#form-content input{
+	background-color: #2A3542;
+  	color: #ffffff;
+  	border: none;
+  	padding: 10px 20px;
+  	font-size: 17px;
+  	font-family: Raleway;
+  	cursor: pointer;
+  	margin-left: 400px;
+  	align-self: center;
+}
+#form-content input:hover{
+	opacity: 0.8;
+}
+#vote-results{
+	height: 92%;
+	background: #00B4DB;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#result-card{
+	margin-left: 450px;
+	width: 40%;
+	background-color: white;
+	border-radius:20px;
+	display: flex;
+}
+#president{
+	padding-top: 5px;
+	margin-left: 10px;
+	font-family: 'Lato',sans-serif;
+	font-size: 18px;
+}
+#vice-president{
+	margin-top: 140px;
+	margin-left: -78px;
+	font-family: 'Lato',sans-serif;
+	font-size: 18px;
+}
+#prime-minister{
+	margin-top : 300px;
+	margin-left: -114px;
+	font-family: 'Lato',sans-serif;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+#president span{
+	padding-left: 10px;
+}
+#vice-president span{
+	padding-left: 10px;
+}
+#prime-minister span{
+	padding-left: 10px;
+}
+#settings-pg{
+	height: 92%;
+	margin: 0;
+	padding:0;
+	display: flex;
+	background-color: #FAFAFA;
+}
+#user-image-content{
+	width: 30%;
+	height: 100%;
+	background: #00B4DB;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/*display: flex;*/
+
+}
+#image-frame{
+	width: 200px;
+	height:200px;
+	margin-top: 50px;
+	display: flex;
+	margin-left:100px;
+
+}
+#image-frame img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+#change-image input[type=file]{
+	color: white;
+	font-family: 'Montserrat',sans-serif;
+	font-size: 14px;
+	padding:14px 16px;
+	border-radius:20px;	
+}
+#change-image input[type=submit]{
+	background-color: rgb(16, 59, 74);
+	color: white;
+	font-family: 'Montserrat',sans-serif;
+	font-size: 14px;
+	padding:14px 10px;	
+	border-style: none;
+	border-radius: 20px;
+}
+.setting-header{
+	padding-left: 5px;
+	font-family: 'Oswald',sans-serif;
+	font-size: 24px;
+}
+.setting-labels{
+	padding-left: 5px;
+	font-family: 'Oswald',sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+#setName{
+	height: 28px;
+	font-family: "Montserrat",sans-serif;
+	font-family: 18px;
+	background-color: rgb(16, 59, 74);
+	color: white;
+	border-style: none;
+	margin-left: 190px;
+	width: 250px;
+	position: absolute;
+	top: 122px;
+}
+#userDOB{
+	background-color: rgb(16, 59, 74);
+	color: white;
+	position: absolute;
+	top: 205px;
+	border-style: none;
+	height: 30px;
+	width: 250px;
+	margin-left: 190px;
+}
+#setID{
+	background-color: rgb(16, 59, 74);
+	color: white;
+	position: absolute;
+	top: 285px;
+	border-style: none;
+	font-family: "Montserrat",sans-serif;
+	font-family: 18px;
+	height: 30px;
+	width: 250px;
+	margin-left: 190px;
+}
+#setEmail{
+	background-color: rgb(16, 59, 74);
+	color: white;
+	position: absolute;
+	top: 365px;
+	font-family: "Montserrat",sans-serif;
+	font-family: 18px;
+	border-style: none;
+	height: 30px;
+	width: 250px;
+	margin-left: 190px;
+	cursor: pointer;
+}
+#setPass{
+	background-color: rgb(16, 59, 74);
+	color: white;
+	position: absolute;
+	top: 450px;
+	border-style: none;
+	height: 30px;
+	width: 250px;
+	margin-left: 190px;
+	cursor: pointer;
+}
+#setRe-Type{
+	background-color: rgb(16, 59, 74);
+	color: white;
+	position: absolute;
+	top: 530px;
+	border-style: none;
+	height: 30px;
+	width: 250px;
+	margin-left: 190px;
+	cursor: pointer;	
+}
+#save-settings{
+	margin-left: 700px;
+	background-color: rgb(16, 59, 74);
+	color: white;
+	font-family: 'Montserrat',sans-serif;
+	font-size: 14px;
+	padding:14px 10px;	
+	border-style: none;
+	border-radius: 20px;
+	cursor: pointer;
+	position: absolute;
+	top: 600px; 
+}
+#ballot-div{
+	height: 92%;
+	background: #00B4DB;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}

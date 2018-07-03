@@ -1,0 +1,162 @@
+#admin-page-content{
+	height: 92%;
+	background-color: #F7F7F7;
+}
+#createBallot{
+	background: linear-gradient(rgba(54, 198, 252,	0.82),rgba(31, 113, 144,0.9)),url("../images/cast-a-vote.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 480px;
+	width: 40%;
+	margin-left: 10px;
+	margin-top: -320px;
+	border: 0 solid #e7e7e7;
+	border-radius: 10px;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.15);
+    padding:20px;
+
+}
+#ballot-details{
+	text-align: center;
+	margin-top: 210px;
+}
+#ballot-details span{
+	font-family: 'Oswald',sans-serif;
+	font-size: 38px;
+	line-height: 20px;
+	color: white;
+}
+#ballotBtn a{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+	border-style:solid;
+	border-radius: 5px;
+	padding:5px 10px;
+}
+#ballotBtn a:hover{
+	cursor: pointer;
+	border-color: #2A3542;
+}
+#ballotBtn{
+	text-align: center;
+	margin-top: 35px;
+}
+#admin-card{
+	background-color: white;
+	border: 0 solid #e7e7e7;
+	border-radius: 10px;
+	margin-top: 10px;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.15);
+    padding:20px;
+	margin-left: 620px;
+	width: 50%;
+	padding-bottom: 20px;
+}
+#admin-header-img{
+	height: 45px;
+	width: 45px;
+	margin-top: -10px;
+}
+#admin-header-img img{
+	height: 100%;
+	width: 100%;
+}
+#admin-header-txt{
+	margin-left: 50px;
+	margin-top:-30px;
+}
+#admin-header-txt span{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+#admin-icon{
+	height: 150px;
+	width: 150px;
+	margin-top: 30px;
+}
+#admin-icon img{
+	height: 100%;
+	width: 100%;
+}
+#admin-details{
+	margin-left: 135px;
+	margin-top: -140px;
+}
+#admin-details ul{
+	list-style: none;
+	font-family: "Lato",sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+#admin-faq-card{
+	background-color: white;
+	margin-top: -180px;
+	border: 0 solid #e7e7e7;
+	border-radius: 10px;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.15);
+    padding:20px;
+	margin-left: 620px;
+	width: 25%;
+	background: linear-gradient(rgba(54, 198, 252,	0.82),rgba(31, 113, 144,0.9)),url("../images/faq.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+	height: 140px;
+}
+#admin-faq-detail a{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+	border-style: solid;
+	border-radius: 5px;
+	padding:5px 10px;
+}
+#admin-faq-detail{
+	margin-left: 250px;
+	margin-top: 70px;
+}
+#admin-faq-detail a:hover{
+	cursor: pointer;
+	border-color: #2A3542;
+}
+#admin-settings-card{
+	background-color: white;
+	margin-top: -180px;
+	border: 0 solid #e7e7e7;
+	border-radius: 10px;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.15);
+    padding:20px;
+	margin-left: 1010px;
+	width: 23%;
+	background: linear-gradient(rgba(54, 198, 252,	0.82),rgba(31, 113, 144,0.9)),url("../images/settings.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 140px;
+}
+#admin-setting-detail a{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+	border-style: solid;
+	border-radius: 5px;
+	padding:5px 10px;
+}
+#admin-setting-detail a:hover{
+	cursor: pointer;
+	border-color: #2A3542;
+}
+#admin-setting-detail{
+	margin-left: 115px;
+	margin-top: 70px;
+}
+#ballot-div{
+	height: 92%;
+	background: #00B4DB;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}

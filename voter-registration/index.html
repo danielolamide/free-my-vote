@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Voter Registration</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="./images/favicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> 
+</head>
+<body>
+	<div id="main">
+		<form>
+			<div id= "formHeader">
+				<img src="./images/user.png">
+				<br>
+				<span >Voter Registration</span>
+			</div>
+			<hr>
+			<div style="padding-top: 15px; padding-left: 40px">
+				<input  type="text" id="fName" class="inputField" required="required" placeholder="First Name">
+			</div>
+			<div class = "iconName">
+					<img src="./images/accountName.png">
+			</div>
+			<div class="bar"></div>
+			<div style="padding-top: 15px; padding-left: 40px">
+				<input type="text" id="lName" class="inputField" required="required" placeholder="Last Name">
+			</div>
+			<div class = "iconName1">
+					<img src="./images/accountName.png">
+			</div>
+			<div class="bar"></div>
+			<div style="padding-top: 15px; padding-left: 40px">
+				<input type="email" id="email" class="inputField" required="required" placeholder="Email">
+			</div>
+			<div class = "iconEmail">
+					<img src="./images/emailIcon.png">
+			</div>
+			<div class="bar"></div>
+			<div style="padding-top: 15px; padding-left: 40px">
+				<input type="text" id="idNumber" class="inputField" required="required" placeholder="ID Number">
+			</div>
+			<div id = "iconID">
+					<img src="./images/idNumber.png">
+			</div>
+			<div class="bar"></div>
+			<div style="padding-top: 15px; padding-left: 40px">
+				<input type="password" id="uPass" class="inputField" required="required" placeholder="Password">
+			</div>
+			<div id = "iconPassword">
+					<img src="./images/password.png">
+			</div>
+			<div class="bar"></div>
+			<div style="padding-top: 15px; padding-left: 40px">
+				<input type="password"  style="font-size: 18px;"id="uPassConfirm" class="inputField" required="required" placeholder="Re-type Password">
+			</div>
+			<div id = "iconPassword1">
+					<img src="./images/password.png">
+			</div>
+			<div class="bar"></div>
+			<div style="padding-top: 24px; padding-right:120px">
+				<span style="font-family:'Montserrat',sans-serif;  font-size: 18px;">Select your date of birth</span>
+			</div>
+			<div id="calendarIcon">
+				<img src="./images/calendar.png">
+			</div>
+			<div style="padding-top: 20px; margin-right: 180px;">
+				<input type="date" name="dob">
+			</div>
+			<div style="padding-top: 24px; padding-right:170px">
+				<span style="font-family:'Montserrat',sans-serif;  font-size: 18px;">Select your gender</span>
+			</div>
+			<div id = "iconGender">
+					<img src="./images/gender.png">
+			</div>
+			<div style="padding-top: 15px; padding-right: 100px; margin-bottom: 15px;">
+					<label class="radio inline"><input type="radio" name="sex" value="male" required="required" checked>
+						<span>Male</span>
+					</label>
+					<label class="radio inline"><input type="radio" name="sex" value="female" required="required" checked>
+						<span>Female</span>
+					</label>
+					<label class="radio inline"><input type="radio" name="sex" value="other" required="required" checked>
+						<span>Other</span>
+					</label>
+			</div>
+			<div style="padding-top: 15px;">
+				<label style="font-family: 'Montserrat', sans-serif">
+					<input type="checkbox" name="agreement" checked >
+					I agree to the terms and conditions
+				</label>	
+				
+			</div>
+			<div style="margin-bottom: 10px; padding-top: 10px; ">
+				<button style="font-family: 'Montserrat',sans-serif; font-size: 18px; width: 200px; height:30px">Register</button>
+			</div>
+
+		</form>
+	</div>
+</body>
+</html>

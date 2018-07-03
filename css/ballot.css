@@ -1,0 +1,37 @@
+#ballot-div{
+	height: 95%;
+	background: #00B4DB;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#create-ballot-form{
+	margin: 0 auto;
+  	font-family: 'Raleway', sans-serif;
+  	padding: 40px;
+  	width: 70%;
+  	min-width: 300px;
+  	align-content: center;
+}
+#create-ballot-form input[type=text]{
+	width: 1000px;
+	height: 30px;
+}
+#create-ballot-form input[type=number]{
+	width: 1000px;
+	height: 30px;
+}
+#create-ballot-form input[type=submit]{
+	width: 100px;
+	height: 30px;
+	border-style: none;
+	border-radius: 15px;
+	color: white;
+	background-color: #2A3542;
+	font-family: 'Raleway'sans-serif;
+	font-size: 14px;
+}
+#create-ballot-form input[type=submit]:hover{
+	cursor:pointer;
+	font-size: 16px;
+}
