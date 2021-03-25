@@ -1,3 +1,3 @@
 # free-my-vote
 
-Digital voting option
+Web voting application using PHP
